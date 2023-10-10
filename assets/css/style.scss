@@ -39,7 +39,7 @@ nav {
 .products {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 10px;
     row-gap: 30px;
     justify-content: space-between;
 }
@@ -72,3 +72,29 @@ nav {
     margin-top: 15px;
     font-weight: 600;
 }
+.addtocart {
+   border: none;
+   padding: 10px;
+   font-size: 18px;
+   margin: 15px 0;
+   cursor: pointer;
+   transition: 0.3s;
+   &:hover {
+    background-color: burlywood;
+   }
+}
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    p {
+        background-color: whitesmoke;
+        padding: 3px;
+        border-radius: 10px;
+    }
+}
+

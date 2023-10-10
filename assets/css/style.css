@@ -41,7 +41,7 @@ nav ul :hover {
 .products {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px;
+  margin: 10px;
   row-gap: 30px;
   justify-content: space-between;
 }
@@ -78,4 +78,67 @@ nav ul :hover {
   text-align: center;
   margin-top: 15px;
   font-weight: 600;
+}
+
+.addtocart {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.addtocart:hover {
+  background-color: burlywood;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.cart p {
+  background-color: whitesmoke;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sidebar {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+.head {
+  background-color: darkgoldenrod;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #333;
 }/*# sourceMappingURL=style.css.map */
